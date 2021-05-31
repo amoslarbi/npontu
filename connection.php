@@ -24,7 +24,7 @@ if(strpos($_SERVER['HTTP_HOST'], "127") !== false){
     $finalUIURL = $_SERVER['HTTP_HOST'];
 }
 else{
-    $finalUIURL = "https://stage.otobookgh.com/";
+    $finalUIURL = "https://npontu.azurewebsites.net";
 }
 
 //protocol and domain (API)
@@ -34,10 +34,10 @@ if(strpos($_SERVER['HTTP_HOST'], "localhost") !== false){
     $findme = "http://127.0.0.1:8002/";
 }
 else{
-    $findme = "https://stage-api.otobookgh.com/";
+    $findme = "https://api-npontu.azurewebsites.net";
 }
 
 $fromEmail = "support@otobookgh.com";
-$fromName = "Otobook Ghana";
+$fromName = "Npontu Choir";
 
 ?>
