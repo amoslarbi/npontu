@@ -34,7 +34,7 @@ if(strpos($_SERVER['HTTP_HOST'], "localhost") !== false){
     $findme = "http://127.0.0.1:8002/";
 }
 else{
-    $findme = "https://api-npontu.azurewebsites.net/";
+    $findme = "https://api-npontu.azurewebsites.net/public/";
 }
 
 $fromEmail = "support@otobookgh.com";
